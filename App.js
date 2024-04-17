@@ -10,7 +10,7 @@ const MessageInputComponent = () => {
 
   const handleKeyPress = (event) => {
     const currentMessage = messagesData.find((message) => message.inAction);
-
+    console.log("Pressed key:", event.nativeEvent.key);
     if (currentMessage) {
       if (event.nativeEvent.key === "Backspace") {
         setTypedIndex((prevIndex) => Math.max(0, prevIndex - 1));
@@ -63,6 +63,7 @@ const MessageInputComponent = () => {
         onKeyPress={handleKeyPress}
         value={newMessage}
         maxLength={newMessage.length}
+        //if maxLength is working from the same variable as value (in this case newMessage.length), the typing bug happens
         onSubmitEditing={handleSubmit}
         autoCorrect={false}
         autoComplete="off"
