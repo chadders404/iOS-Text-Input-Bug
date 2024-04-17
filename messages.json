@@ -1,0 +1,65 @@
+[
+  {
+    "id": 16,
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "user": true,
+    "time": "",
+    "gap": false,
+    "deliveryStatus": true,
+    "inAction": false
+  },
+  {
+    "id": 18,
+    "content": "you speak latin now?",
+    "user": false,
+    "time": "",
+    "gap": false,
+    "deliveryStatus": true,
+    "inAction": false
+  },
+  {
+    "id": 19,
+    "content": "Ut enim ad minim veniam,",
+    "user": true,
+    "time": "",
+    "gap": false,
+    "deliveryStatus": true,
+    "inAction": false
+  },
+  {
+    "id": 20,
+    "content": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque",
+    "user": false,
+    "time": "",
+    "gap": false,
+    "deliveryStatus": true,
+    "triggerable": false
+  },
+  {
+    "id": 21,
+    "content": "omg it's spreading",
+    "user": false,
+    "time": "",
+    "gap": false,
+    "deliveryStatus": true,
+    "inAction": false
+  },
+  {
+    "id": 22,
+    "content": "This is in Action message1",
+    "user": true,
+    "time": "",
+    "gap": false,
+    "deliveryStatus": true,
+    "inAction": true
+  },
+  {
+    "id": 23,
+    "content": "This is in Action message2",
+    "user": true,
+    "time": "",
+    "gap": false,
+    "deliveryStatus": true,
+    "inAction": true
+  }
+]
